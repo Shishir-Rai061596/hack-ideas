@@ -1,0 +1,33 @@
+.card__border {
+  border: 1px solid #cbcbcb;
+}
+
+.card__style {
+  padding: 12px 0px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  background: white;
+  color: #000;
+}
+
+.card__style:hover {
+  box-shadow: 0px 2px 8px 0px #cdcdcd;
+}
+
+.card__title {
+  border-bottom: 1px solid red;
+  background: #fcfafa;
+  padding: 12px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.card__title_uppercase {
+  text-transform: uppercase;
+  padding-left: 14px;
+}
+
+.card__upvote {
+  color: red;
+}

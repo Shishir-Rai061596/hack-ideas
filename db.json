@@ -1,0 +1,98 @@
+{
+  "loggedUser": [
+    {
+      "id": "currentUser",
+      "userId": "741"
+    }
+  ],
+  "challenges": [
+    {
+      "id": 1,
+      "createdBy": "shishir",
+      "upvotes": [
+        "1",
+        "741"
+      ],
+      "createdOn": "15/07/2022",
+      "title": "HTML 5",
+      "description": "What are semantic tags",
+      "tags": "feature"
+    },
+    {
+      "id": 2,
+      "createdBy": "shishir",
+      "upvotes": [
+        "1"
+      ],
+      "createdOn": "14/07/2022",
+      "title": "CSS",
+      "description": "What are block inline inline block elements",
+      "tags": "feature"
+    },
+    {
+      "id": 3,
+      "createdBy": "shishir",
+      "upvotes": [
+        "13579",
+        "741",
+        "1"
+      ],
+      "createdOn": "15/07/2022",
+      "title": "CSS",
+      "description": "What is margin collapsing",
+      "tags": "tech"
+    },
+    {
+      "id": 4,
+      "createdBy": "shishir",
+      "upvotes": [],
+      "createdOn": "15/07/2022",
+      "title": "SASS",
+      "description": "What is sass",
+      "tags": "tech"
+    },
+    {
+      "id": 5,
+      "createdBy": "shishir",
+      "upvotes": [
+        "741",
+        "1"
+      ],
+      "createdOn": "15/07/2022",
+      "title": "Javscript",
+      "description": "Reverse a string",
+      "tags": "tech"
+    },
+    {
+      "id": 6,
+      "createdBy": "shishir",
+      "upvotes": [
+        "741"
+      ],
+      "createdOn": "16/07/2022",
+      "title": "React",
+      "description": "when was hooks introduced",
+      "tags": "tech"
+    },
+    {
+      "id": 7,
+      "createdBy": "shishir",
+      "upvotes": [
+        "8"
+      ],
+      "createdOn": "16/07/2022",
+      "title": "TS",
+      "description": "what is typescript",
+      "tags": "feature"
+    },
+    {
+      "id": 9972,
+      "createdBy": "shishir",
+      "upvotes": [],
+      "createdOn": "17/07/2022",
+      "title": "React",
+      "description": "React vs Angular vs Vue",
+      "tags": "feature"
+    }
+  ]
+}
