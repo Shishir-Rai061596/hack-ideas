@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { ChallengeContex } from "../App";
 
@@ -9,10 +9,16 @@ const NewChallenge = () => {
   const { searchChallenge: onSearchChallenge, sortChallenge: onSortChallenge } =
     useContext(ChallengeContex);
 
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      onSearchChallenge(searchChallenge);
+    }, 500);
+    return () => clearTimeout(timer);
+  }, [searchChallenge]);
+
   const searchChallengeHandler = e => {
     const { value } = e.target;
     setSearchChallenge(value);
-    onSearchChallenge(value);
   };
 
   const sortChallengeHandler = e => {
