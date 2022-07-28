@@ -39,7 +39,7 @@ const App = () => {
   const addNewChallenge = async challengeDetails => {
     const newChallenge = {
       id: Math.floor(Math.random() * 100000) + 1,
-      createdBy: "shishir",
+      createdBy: loggedUser,
       upvotes: [],
       createdOn: getCreatedDate(),
       ...challengeDetails,

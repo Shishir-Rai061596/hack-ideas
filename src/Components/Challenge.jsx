@@ -31,7 +31,11 @@ const Challenge = ({ challenge }) => {
                     ? "fa fa-heart"
                     : "fa fa-heart-o"
                 }
-                onClick={challnegeUpvoteHandler}
+                onClick={
+                  challenge.createdBy === loggedUser
+                    ? undefined
+                    : challnegeUpvoteHandler
+                }
               ></span>
               <span>{challenge.upvotes.length}</span>
             </div>
